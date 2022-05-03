@@ -325,7 +325,7 @@ img {
   padding: 0px;
 }
 
-.picture:not(:last-child) {
+.activities_picture:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -480,14 +480,14 @@ img {
   align-items: center;
 }
 
-.icon-client:hover,
-.icon-client:focus {
+.clients_item:hover,
+.clients_item:focus {
   border-color: var(--action-color);
   fill: var(--action-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-client:not(:last-child) {
+.clients_item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -675,13 +675,6 @@ img {
   padding-bottom: 60px;
 }
 
-.contact-details {
-  display: block;
-  margin-top: 20px;
-  margin-right: 70px;
-  width: 246px;
-}
-
 .footer {
   background: var(--background-footer);
   padding-top: 60px;
@@ -777,6 +770,8 @@ img {
 
 .sign-up-button {
   display: relative;
+  padding-top: 10px;
+  padding-left: 42px;
   padding-bottom: 10px;
   width: 200px;
   height: 50px;
@@ -784,15 +779,10 @@ img {
   border-radius: 4px;
   color: var(--background-menu);
   border-style: none;
-}
-
-.sign-up-button_title {
-  padding-top: 10px;
-  padding-left: 42px;
   font-weight: 700;
 }
 
-.sign-up-button {
+.sign-up-button_icon {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -892,7 +882,7 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal_icon {
+.modal-form_icon {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -908,6 +898,16 @@ img {
 
 .modal-form_input:focus + .modal-form_icon {
   fill: var(--action-color);
+}
+
+.modal-form_text {
+  margin-right: 40px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: var(--contacts-color);
 }
 
 .modal-form_message {
