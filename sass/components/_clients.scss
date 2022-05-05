@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
 
-  .clients_item {
+  .clients__item {
     width: 170px;
     height: 92px;
     border: 1px solid var(--icon-color);
@@ -37,7 +37,7 @@
       margin-right: 30px;
     }
   }
-  .clients_link {
+  .clients__link {
     justify-content: center;
     align-items: center;
   }

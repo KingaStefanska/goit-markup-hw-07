@@ -23,7 +23,7 @@
   margin-right: 93px;
   margin-bottom: 25px;
 
-  .logo_span {
+  .logo__span {
     color: var(--leading-color);
   }
 }
@@ -31,26 +31,26 @@
 .nav {
   display: inline-flex;
 
-  .nav_agency,
-  .nav_portfolio,
-  .nav_contact {
+  .nav__agency,
+  .nav__portfolio,
+  .nav__contact {
     color: var(--leading-color);
     font-size: 14px;
     line-height: 1.1;
     font-weight: 500;
 
-    .nav_agency:hover,
-    .nav_agency:focus,
-    .nav_portfolio:hover,
-    .nav_portfolio:focus,
-    .nav_contact:hover,
-    .nav_contact:focus {
+    .nav__agency:hover,
+    .nav__agency:focus,
+    .nav__portfolio:hover,
+    .nav__portfolio:focus,
+    .nav__contact:hover,
+    .nav__contact:focus {
       color: var(--action-color);
       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
 
-  .nav_agency--active {
+  .nav__agency--active {
     color: var(--action-color);
     font-size: 14px;
     line-height: 1.1;
@@ -68,7 +68,7 @@
     }
   }
 
-  .nav_portfolio--active {
+  .nav__portfolio--active {
     color: var(--action-color);
     font-size: 14px;
     line-height: 1.1;
@@ -85,10 +85,10 @@
     }
   }
 
-  .nav_agency--active,
-  .nav_portfolio--active,
-  .nav_portfolio,
-  .nav_agency {
+  .nav__agency--active,
+  .nav__portfolio--active,
+  .nav__portfolio,
+  .nav__agency {
     margin-right: 46px;
   }
 }
@@ -113,8 +113,8 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.e-mail_link,
-.phone_link {
+.e-mail__link,
+.phone__link {
   display: inline;
   justify-content: flex-end;
   line-height: 1.1;
@@ -123,35 +123,35 @@
   font-size: 14px;
 }
 
-.e-mail_link {
+.e-mail__link {
   margin-right: 30px;
   margin-left: 10px;
 }
 
-.phone_link {
+.phone__link {
   margin-left: 10px;
 }
 
-.e-mail_link:focus,
-.e-mail_link:hover,
-.phone_link:focus,
-.phone_link:hover {
+.e-mail__link:focus,
+.e-mail__link:hover,
+.phone__link:focus,
+.phone__link:hover {
   color: var(--action-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.e-mail_link,
-.phone_link {
+.e-mail__link,
+.phone__link {
   padding-bottom: 32px;
 }
 
-.nav_agency--active,
-.nav_portfolio--active,
-.nav_portfolio,
-.nav_agency,
-.nav_contact,
-.e-mail_link,
-.phone_link {
+.nav__agency--active,
+.nav__portfolio--active,
+.nav__portfolio,
+.nav__agency,
+.nav__contact,
+.e-mail__link,
+.phone__link {
   padding-top: 32px;
   align-items: center;
 }

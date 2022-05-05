@@ -18,7 +18,7 @@
   justify-content: center;
   padding-bottom: 94px;
 
-  .activities_picture {
+  .activities__picture {
     width: 370px;
     padding: 0px;
 
@@ -27,11 +27,11 @@
     }
   }
 
-  .activities_thumb {
+  .activities__thumb {
     position: relative;
   }
 
-  .activities_label {
+  .activities__label {
     position: absolute;
     top: 224px;
     bottom: 0;

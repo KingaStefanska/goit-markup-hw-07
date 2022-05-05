@@ -10,11 +10,11 @@
   flex-direction: row;
   flex-basis: calc(100% / 4 -30px);
 
-  .lorem_item:not(:last-child) {
+  .lorem__item:not(:last-child) {
     padding-right: 30px;
   }
 
-  .lorem_title {
+  .lorem__title {
     color: var(--title-lorem);
     font-size: 14px;
     line-height: 1.1;
@@ -23,7 +23,7 @@
     padding-bottom: 10px;
   }
 
-  .lorem_text {
+  .lorem__text {
     color: var(--text-lorem);
     font-size: 14px;
     line-height: 1.71;
@@ -31,7 +31,7 @@
     text-align: left;
   }
 
-  .lorem_icon {
+  .lorem__icon {
     width: 270px;
     height: 120px;
     background-color: var(--background-team);

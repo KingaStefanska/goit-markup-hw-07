@@ -23,7 +23,7 @@
   display: inline;
   margin-right: 171px;
 
-  .logo-inline_span {
+  .logo-inline__span {
     color: var(--text-action-color);
   }
 }
@@ -76,13 +76,13 @@
   width: 206px;
   padding-top: 20px;
 
-  .social-footer_icon {
+  .social-footer__icon {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .social-footer_link {
+  .social-footer__link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -107,7 +107,7 @@
   margin-top: 20px;
   margin-left: 78px;
 
-  .form_input {
+  .form__input {
     width: 358px;
     height: 50px;
     margin-right: 12px;
@@ -161,7 +161,7 @@
   border-style: none;
   font-weight: 700;
 
-  .sign-up-button_icon {
+  .sign-up-button__icon {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
